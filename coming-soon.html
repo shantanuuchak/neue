@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon!</title>
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+        body {
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) translateY(20px) scale(1.5);
+            overflow: hidden;
+            background: url('https://dora-world.com/assets/images/manga_info/doraemon/bg_detail.png');
+        }
+
+        h1 {
+            margin: 0;
+            font-family: 'Work Sans', sans-serif;
+            font-size: 2em;
+            color: #333;
+            transform: rotate(-30deg);
+
+        }
+
+        p {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 1em;
+            font-weight: bold;
+            color: #222;
+            text-shadow: 0 0 40px #FFFFFF, 0 0 30px #FFFFFF, 0 0 20px #FFFFFF;
+            transform: rotate(-30deg);
+
+        }
+
+        img {
+            float: right;
+            opacity: 0.5;
+            max-width: 150px;
+            border: 5px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>COMING SOON</h1>
+    <p id="this_page_will">THIS PAGE WILL BE READY IN <span id="demo"></span></p>
+    <p>GET READY AND ENJOY<span><img src="https://dora-world.com/assets/images/manga_info/doraemon/ico.png"></span></p>
+    <p>Thanks For Your Wait</p>
+    <p>THIS IS DORAEMON</p>
+
+
+    <script>
+        var countDownDate = new Date("May 21, 2021 00:00:0").getTime();
+        var countdownfunction = setInterval(function () {
+
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            document.getElementById("demo").innerHTML = days + "D " + hours + "H "
+                + minutes + "M " + seconds + "S ";
+            if (distance < 0) {
+                clearInterval(countdownfunction);
+                document.getElementById("this_page_will").innerHTML = "THIS PAGE IS EXPIRED";
+            }
+        }, 1000);
+
+        document.oncontextmenu = new Function("return false;");
+        document.onselectstart = new Function("return false;");
+    </script>
+</body>
+
+</html>
