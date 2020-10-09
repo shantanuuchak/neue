@@ -1,59 +1,47 @@
-/*!
-Theme Name: Webalive
-Theme URI: https://webalive.com.au/
-Author: Webalive Team
-Author URI: https://webalive.com.au/team
-Description: WordPress theme for wevalive.com
-Version: 1.0.0
-License: GNU General Public License v2 or later
-License URI: LICENSE
-Text Domain: webalive
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-*/
 @font-face {
     font-family: 'Gilroy';
-    src: url('assets/fonts/Gilroy-Bold.eot');
-    src: url('assets/fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
-        url('assets/fonts/Gilroy-Bold.woff2') format('woff2'),
-        url('assets/fonts/Gilroy-Bold.woff') format('woff'),
-        url('assets/fonts/Gilroy-Bold.ttf') format('truetype'),
-        url('assets/fonts/Gilroy-Bold.svg#Gilroy-Bold') format('svg');
+    src: url('../../fonts/Gilroy-Bold.eot');
+    src: url('../../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../../fonts/Gilroy-Bold.woff') format('woff'),
+        url('../../fonts/Gilroy-Bold.ttf') format('truetype'),
+        url('../../fonts/Gilroy-Bold.svg#Gilroy-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('assets/fonts/Gilroy-SemiBold.eot');
-    src: url('assets/fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('assets/fonts/Gilroy-SemiBold.woff2') format('woff2'),
-        url('assets/fonts/Gilroy-SemiBold.woff') format('woff'),
-        url('assets/fonts/Gilroy-SemiBold.ttf') format('truetype'),
-        url('assets/fonts/Gilroy-SemiBold.svg#Gilroy-SemiBold') format('svg');
+    src: url('../../fonts/Gilroy-SemiBold.eot');
+    src: url('../../fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Gilroy-SemiBold.woff2') format('woff2'),
+        url('../../fonts/Gilroy-SemiBold.woff') format('woff'),
+        url('../../fonts/Gilroy-SemiBold.ttf') format('truetype'),
+        url('../../fonts/Gilroy-SemiBold.svg#Gilroy-SemiBold') format('svg');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Aeonik';
-    src: url('assets/fonts/Aeonik-Regular.eot');
-    src: url('assets/fonts/Aeonik-Regular.eot?#iefix') format('embedded-opentype'),
-        url('assets/fonts/Aeonik-Regular.woff2') format('woff2'),
-        url('assets/fonts/Aeonik-Regular.woff') format('woff'),
-        url('assets/fonts/Aeonik-Regular.ttf') format('truetype'),
-        url('assets/fonts/Aeonik-Regular.svg#Aeonik-Regular') format('svg');
+    src: url('../../fonts/Aeonik-Regular.eot');
+    src: url('../../fonts/Aeonik-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Aeonik-Regular.woff2') format('woff2'),
+        url('../../fonts/Aeonik-Regular.woff') format('woff'),
+        url('../../fonts/Aeonik-Regular.ttf') format('truetype'),
+        url('../../fonts/Aeonik-Regular.svg#Aeonik-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Aeonik';
-    src: url('assets/fonts/Aeonik-Bold.eot');
-    src: url('assets/fonts/Aeonik-Bold.eot?#iefix') format('embedded-opentype'),
-        url('assets/fonts/Aeonik-Bold.woff2') format('woff2'),
-        url('assets/fonts/Aeonik-Bold.woff') format('woff'),
-        url('assets/fonts/Aeonik-Bold.ttf') format('truetype'),
-        url('assets/fonts/Aeonik-Bold.svg#Aeonik-Bold') format('svg');
+    src: url('../../fonts/Aeonik-Bold.eot');
+    src: url('../../fonts/Aeonik-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Aeonik-Bold.woff2') format('woff2'),
+        url('../../fonts/Aeonik-Bold.woff') format('woff'),
+        url('../../fonts/Aeonik-Bold.ttf') format('truetype'),
+        url('../../fonts/Aeonik-Bold.svg#Aeonik-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
 }
