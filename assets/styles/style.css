@@ -1,3 +1,5 @@
+/* Custom Styling In Here */
+
 .no-js img.lazyload {
     display: none;
 }
@@ -16,5 +18,3 @@ figure.wp-block-image img.lazyloading {
     transition: opacity 400ms;
     transition-delay: 0ms;
 }
-
-/* Some Styles In Here */
