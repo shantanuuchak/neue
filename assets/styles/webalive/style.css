@@ -672,7 +672,7 @@ footer.webalive-footer .copyright-footer .social ul li a:hover {
 .bact-to-top-wrap.text-right a::before {
     content: "";
     position: absolute;
-    background: url(../../img/back-arrow.png) no-repeat;
+    background: url(../../images/img/back-arrow.png) no-repeat;
     background-position: center 2px;
     height: 21px;
     width: 100%;
@@ -766,7 +766,7 @@ a.btn-default:after,
 button.btn-default:after {
     content: "";
     position: absolute;
-    background: url(../../img/right-arrow.png) no-repeat center;
+    background: url(../../images/img/right-arrow.png) no-repeat center;
     width: 30px;
     height: 30px;
     right: 25px;
@@ -858,7 +858,7 @@ button.primary:hover:after {
 
 .btn-outline-dark::after {
     content: "";
-    background: url(../../img/black-n-white-revrs.svg) no-repeat right;
+    background: url(../../images/img/black-n-white-revrs.svg) no-repeat right;
     background-position-x: right;
     background-position-y: center;
     background-position-x: center;
@@ -916,7 +916,7 @@ button.primary:hover:after {
 
 .btn-primary.arrow:after {
     content: "";
-    background: url(../../img/black-n-white.svg) no-repeat right;
+    background: url(../../images/img/black-n-white.svg) no-repeat right;
     width: 30px;
     height: 30px;
     right: 16px;
@@ -972,7 +972,7 @@ a.btn-underline-white {
 
 a.btn-underline-white:after {
     content: "";
-    background: url(../../img/white-n-orange.svg) no-repeat right;
+    background: url(../../images/img/white-n-orange.svg) no-repeat right;
     width: 30px;
     height: 30px;
     position: absolute;
